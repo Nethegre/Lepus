@@ -4,3 +4,5 @@ Hares and jackrabbits are leporids belonging to the genus Lepus. Hares are class
 Five leporid species with "hare" in their common names are not considered true hares: the hispid hare (Caprolagus hispidus), and four species known as red rock hares (comprising Pronolagus). Meanwhile, jackrabbits are hares rather than rabbits.
 
 A hare less than one year old is called a leveret. The collective noun for a group of hares is a "drove".
+
+![Image of Corn](http://i.imgur.com/UE2Me.jpg)
