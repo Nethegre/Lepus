@@ -1,0 +1,14 @@
+Potential Website: https://www.digitalocean.com/community/tutorials/how-to-set-up-a-minecraft-server-on-linux
+
+Directions:
+java -version
+sudo apt-get install default-jdk
+sudo apt-get install screen
+mkdir minecraft
+cd minecraft
+wget -O minecraft_server.jar https://s3.amazonaws.com/Minecraft.Download/versions/1.7.4/minecraft_server.1.7.4.jar
+screen -S "Minecraft server"
+java -Xmx1024M -Xms1024M -jar minecraft_server.jar nogui
+ctl-a d
+screen -R
+vi ~/minecraft/server.properties
