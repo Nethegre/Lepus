@@ -6,7 +6,12 @@ sudo apt-get install default-jdk
 sudo apt-get install screen
 mkdir minecraft
 cd minecraft
+
 wget -O minecraft_server.jar https://s3.amazonaws.com/Minecraft.Download/versions/1.7.4/minecraft_server.1.7.4.jar
+or
+wget https://s3.amazonaws.com/Minecraft.Download/versions/1.10.2/minecraft_server.1.10.2.jar
+chmod +x minecraft_server.jar
+
 screen -S "Minecraft server"
 java -Xmx1024M -Xms1024M -jar minecraft_server.jar nogui
 ctl-a d
