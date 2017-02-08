@@ -1,0 +1,102 @@
+Temporarily kill network connection
+
+Change Passwords
+-Domain Administrator
+-Local Administrators
+
+Check Ad Groups and OUs
+-Domain Admins
+-Enterprise Admins
+-Schema Admins
+-DNS Admins
+-Domain Users
+-Domain Guests
+-Domain Controllers
+-Computers(OUs)
+
+Remove unnecessary services
+-Services running?
+--Remote services: Remote registry, 
+-Filezilla client?
+
+Suspect places
+-C:\Windows\system32\dist\
+--wce.exe, psexex.exe, 
+-C:\Windows\start menu\program\startup\WinCheck.vbs
+--Watch for flash update
+-C:\Windows\Temp
+
+
+TinyWall/Firewall
+-Have tinywall in learning mode to start, edit as needed
+--dns.exe - 53, 135
+--lsass.exe - 389, 3268, 636, 3269, AD DC
+--svchost.exe - 123, 135
+--iexplorer.exe - 80, 443
+--dfssvc.exe
+--spoolsv.exe
+--ADWS\Microsoft.ActiveDirectory.Webservices.exe,
+--C:\Windows\System32\w32tm.exe, UDP 123
+--SYSTEM - 88,464, 138, 445
+-http://blogs.technet.com/b/mempson/archive/2008/02/26/key-firewall-ports-for-windows-server-2008.aspx
+-http://serverfault.com/questions/304484/what-firewall-ports-need-to-be-open-for-active-directory
+
+Sysinternals
+-Download
+
+Scheduled Tasks
+-What are scheduled? 
+-schtasks.exe
+
+GPO's
+-What's in place? 
+-What is it all doing?
+-What privileges or access is it giving?
+
+Backups
+-DNS
+
+Auditing & Logging
+-Logon/Logoff-4625,
+--4634-Logogg
+--4647-initiated logoff
+--4624-Successful logon
+--4625-Account logon fail
+-Object Access
+--4656, 4658, 4659, 4660, 4661, 4662, 4663, 4664
+-Audit Process Creation
+--4688-new process
+--4689-process exited
+--5712-RPC call attempted
+-Registry
+--4657-Modified
+--5039-Key virtualized
+-Other
+--4697-Service was installed
+-Link
+--https://support.microsoft.com/kb/977519?wa=wsignin1.0
+
+
+Process Examination
+-Process Explorer, tasklist, wmic, tasklist
+-procep.exe
+-tcpview.exe
+
+Trusted Sites(internet Explorer)
+
+User Shares
+-What's in place?
+-What's needed?
+---------------------------------------------------------------------
+https://www.reddit.com/r/hacking/comments/2uingc/how_to_gain_admin_access_to_almost_any_windows/co8yiat
+
+Disable IPv6 tunnel adapaters. IPv6 not necessary on an IPv4 network. 
+
+C:\Windows\system32>netsh int 6to4 set state disabled
+Ok.
+
+C:\Windows\system32>netsh int teredo set state disabled
+Ok.
+
+C:\Windows\system32>netsh int isatap set state disabled
+Ok.
