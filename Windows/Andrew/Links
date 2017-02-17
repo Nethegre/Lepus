@@ -1,4 +1,4 @@
 FCIV (Use for hashing executables): https://support.microsoft.com/en-us/help/841290/availability-and-description-of-the-file-checksum-integrity-verifier-utility
-Syslog Server: http://syslogserver.com/download.html
 MBSA: https://www.microsoft.com/en-us/download/details.aspx?id=7558
+Syslog Server (Not super important, just use Splunk): http://syslogserver.com/download.html
 Splunk: https://www.splunk.com/en_us/download.html
