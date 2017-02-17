@@ -1,4 +1,4 @@
-<p align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img width=12.5% src="https://github.com/mainframe7/Lepus/raw/master/Lepus.png"></p>
+<p align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img width=12.5% src="https://github.com/mainframe7/Lepus/raw/master/Lepus.png"></p>
 <p align="center"><img width=25% src="https://github.com/mainframe7/Lepus/raw/master/logo.gif"></p>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -14,4 +14,4 @@ Five leporid species with "hare" in their common names are not considered true h
 
 A hare less than one year old is called a leveret. The collective noun for a group of hares is a "drove".
 
-![Children of the Corn](http://i.imgur.com/UE2Me.jpg)
+<p align="center"><img src="http://i.imgur.com/UE2Me.jpg"></p>
