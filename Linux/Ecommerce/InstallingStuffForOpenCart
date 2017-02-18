@@ -1,0 +1,14 @@
+#Other stuff needs to be done on the server that is hosting the mysql database but this will get the client set up.
+
+install commands for yum
+yum install apache  or>
+yum install httpd
+
+yum install php
+yum install php-gd
+yum install php-mysql
+
+yum install epel-release
+yum install --enablerepo="epel" php-mcrypt
+
+#make sure you restart
