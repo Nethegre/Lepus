@@ -1,0 +1,13 @@
+#1.) Google "Splunk Universal Forwarder". The first result should bring you to the prompter page. 
+
+#2.) If your version is older there should be below the new options there is an older options link. There will be any other 
+versions you need. 
+
+#3.) Once downloaded it will prompt you to enter a Deployment Server. This can be the AD or whatever is running Splunk, either 
+way enter the IP or host name. 
+
+#4.) Next it will ask what the Index Server is, this can be the same as the deployment. It's up to you and your current setup but 
+as said before enter the IP or hostname and continue. 
+
+#5.) After this it will do a couple things but should be completely done. You can check the server running splunk to verfify it 
+is monitoring your logs. Now you're all done (:
