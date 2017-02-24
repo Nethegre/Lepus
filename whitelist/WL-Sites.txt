@@ -1,1 +1,8 @@
 Please put the sites that you would like white-listed here. 
+
+Check out these CCDC Repos they might be helpful
+  https://github.com/49thSecurityDivision
+  
+  https://github.com/uhmgreyhats
+   
+  https://github.com/CUCyber
