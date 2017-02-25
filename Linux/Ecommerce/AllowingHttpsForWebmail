@@ -1,0 +1,27 @@
+Using the tutorial on https://wiki.centos.org/HowTos/Https
+
+commands:
+
+yum install openssl
+yum install mod_ssl openssl
+
+openssl genrsa -out ca.key 2048 
+openssl req -new -key ca.key -out ca.csr
+openssl x509 -req -days 365 -in ca.csr -signkey ca.key -out ca.crt
+
+cp ca.crt /etc/pki/tls/certs
+cp ca.key /etc/pki/tls/private/ca.key
+cp ca.csr /etc/pki/tls/private/ca.csr
+
+vi +/SSLCertificateFile /etc/httpd/conf.d/ssl.conf
+
+<once into the file replace the 'SSLCertificateKeyFile' line with the following>
+SSLCertificateFile /etc/pki/tls/certs/ca.crt
+
+<after that look a few lines below and replace the file that starts with 'SSLCertificateKeyFile'>
+SSLCertificateKeyFile /etc/pki/tls/private/ca.key
+
+<Then restart the apache or httpd service>
+/etc/init.d/httpd restart
+service httpd restart
+
