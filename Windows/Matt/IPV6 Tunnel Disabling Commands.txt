@@ -1,0 +1,5 @@
+C:\Windows\system32>netsh int 6to4 set state disabled 
+
+C:\Windows\system32>netsh int teredo set state disabled 
+
+C:\Windows\system32>netsh int isatap set state disabled 

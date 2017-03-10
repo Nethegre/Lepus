@@ -1,0 +1,13 @@
+diskpart
+list volume
+//highlights the 30 GB partition
+exit
+dir 
+cd users
+cd D:\
+
+xcopy D:\users\{name of user} E {lTR ( D, E,  or whatever)}:\ /E
+Y
+A
+xcopy *.docx E:\ /s 
+dir *.txt /s
