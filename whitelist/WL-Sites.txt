@@ -6,3 +6,20 @@ Check out these CCDC Repos they might be helpful
   https://github.com/uhmgreyhats
    
   https://github.com/CUCyber
+  
+  White list that will be submitted:
+  
+github.com
+stackexchange.com
+serverfault.com
+cyberciti.biz
+tecmint.com
+digitalocean.com
+syslogserver.com/
+support.microsoft.com
+microsoft.com
+hesk.com/
+mozilla.org
+sans.org
+https://live.paloaltonetworks.com
+https://www.paloaltonetworks.com
